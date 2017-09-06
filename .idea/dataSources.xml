@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3736773857">
+    <data-source source="LOCAL" name="Oracle - @system" uuid="0e8de07c-9183-4f1f-8bb3-3a076b019570">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//172.16.175.129:1521/orcl</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Oracle - @bos" uuid="5a80beed-7937-4fdb-9c1e-ce8260e64635">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//172.16.175.129:1521/orcl</jdbc-url>
+    </data-source>
+  </component>
+</project>
