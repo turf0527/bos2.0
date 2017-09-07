@@ -102,7 +102,6 @@
           <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.37" />
           <element id="library" level="project" name="Maven: com.colobu:fastjson-jaxrs-json-provider:0.3.1" />
-          <element id="library" level="project" name="Maven: org.apache.struts:struts2-json-plugin:2.3.24" />
         </element>
       </element>
       <element id="directory" name="META-INF">

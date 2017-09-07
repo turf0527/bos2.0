@@ -34,6 +34,18 @@
 					idField : 'id',
 					columns : columns
 				});
+
+				//对收派文件的save按钮添加事件
+				$("#save").click(function(){
+					if($("#standardForm").form("validate")){
+						//通过校验
+						$("#standardForm").submit();
+					}else{
+						$.messager.alert("警告","存在非法录入","warning");
+					}
+				});
+
+
 			});	
 			
 			//工具栏
@@ -42,7 +54,9 @@
 				text : '增加',
 				iconCls : 'icon-add',
 				handler : function(){
-					alert('增加');
+//					alert('增加');
+						$("#standardWindow").window("open");
+
 				}
 			}, {
 				id : 'button-edit',
@@ -115,7 +129,7 @@
 
 			<div region="center" style="overflow:auto;padding:5px;" border="false">
 				
-				<form>
+				<form id="standardForm" action="../../standard_save.action" method="post">
 					<table class="table-edit" width="80%" align="center">
 						<tr class="title">
 							<td colspan="2">收派标准信息
