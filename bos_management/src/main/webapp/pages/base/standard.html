@@ -27,10 +27,10 @@
 					border : false,
 					rownumbers : true,
 					striped : true,
-					pageList: [30,50,100],
+					pageList: [2,3,100],
 					pagination : true,
 					toolbar : toolbar,
-					url : "../../data/standard.json",
+					url : "../../standard_pageQuery",
 					idField : 'id',
 					columns : columns
 				});
@@ -63,7 +63,22 @@
 				text : '修改',
 				iconCls : 'icon-edit',
 				handler : function(){
-					alert('修改');
+//					alert('修改');
+					//获取datagrid选中的数据
+					var rows = $("#grid").datagrid("getSelections");
+					if(rows.length!=1){
+						//没选或者多选
+						$.messager.alert("提示信息","修改数据只能选择一行数据","warning");
+					}else{
+						//选中一条数据
+						var row = rows[0];
+						//回显表单
+						$("#standardForm").form("load",row);
+						//显示窗口
+						$("#standardWindow").window("open");
+
+
+					}
 				}
 			}];
 			
@@ -129,12 +144,14 @@
 
 			<div region="center" style="overflow:auto;padding:5px;" border="false">
 				
-				<form id="standardForm" action="../../standard_save.action" method="post">
+				<form id="standardForm" action="../../standard_save" method="post">
 					<table class="table-edit" width="80%" align="center">
 						<tr class="title">
 							<td colspan="2">收派标准信息
+
 								<!--提供隐藏域 装载id -->
 								<input type="hidden" name="id" />
+
 							</td>
 						</tr>
 						<tr>

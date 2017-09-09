@@ -26,7 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bos_management" target="1.7" />
+      <module name="bos_management" target="1.8" />
       <module name="common_parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>
