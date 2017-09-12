@@ -7,9 +7,13 @@
 /Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/domain/base/Standard.java
 /Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/dao/base/StandardRepository.java
 /Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/web/action/base/CourierAction.java
+/Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/service/base/IAreaService.java
+/Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/web/action/base/AreaAction.java
 /Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/domain/base/SubArea.java
+/Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/service/base/impl/AreaServiceImpl.java
 /Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/domain/base/Vehicle.java
 /Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/service/base/impl/StandardServiceImpl.java
+/Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/dao/base/AreaRepository.java
 /Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/service/base/ICourierService.java
 /Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/service/base/impl/CourierServiceImpl.java
 /Users/Turf/Documents/IDEA Project/bos2.0/bos_management/src/main/java/cn/itcast/bos/service/base/IStandardService.java
